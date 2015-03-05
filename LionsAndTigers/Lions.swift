@@ -28,7 +28,7 @@ class Lion {
         var randomFact:String
         
         if self.isAlphaMale {
-            randomFact = "Male lions are easy to recognize thanks to their distinctive males. Males with darker manes are likely to attract females."
+            randomFact = "Male lions are easy to recognize thanks to their distinctive manes. Males with darker manes are likely to attract females."
         }
         else {
             randomFact = "Female lionesses form the stable social unit and do not tolerate outside females."
