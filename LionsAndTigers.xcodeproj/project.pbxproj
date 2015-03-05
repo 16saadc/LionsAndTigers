@@ -22,6 +22,8 @@
 		B6451E281AA12B0F004FC0C3 /* Lioness.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B6451E201AA12B0F004FC0C3 /* Lioness.jpeg */; };
 		B6451E291AA12B0F004FC0C3 /* MalayanTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6451E211AA12B0F004FC0C3 /* MalayanTiger.jpg */; };
 		B6451E2A1AA12B0F004FC0C3 /* SiberianTiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6451E221AA12B0F004FC0C3 /* SiberianTiger.jpg */; };
+		B68AC5DA1AA8C714009D7936 /* Lions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68AC5D91AA8C714009D7936 /* Lions.swift */; };
+		B68AC5DC1AA8D794009D7936 /* LionCub.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68AC5DB1AA8D794009D7936 /* LionCub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		B6451E201AA12B0F004FC0C3 /* Lioness.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lioness.jpeg; sourceTree = "<group>"; };
 		B6451E211AA12B0F004FC0C3 /* MalayanTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MalayanTiger.jpg; sourceTree = "<group>"; };
 		B6451E221AA12B0F004FC0C3 /* SiberianTiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiberianTiger.jpg; sourceTree = "<group>"; };
+		B68AC5D91AA8C714009D7936 /* Lions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lions.swift; sourceTree = "<group>"; };
+		B68AC5DB1AA8D794009D7936 /* LionCub.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LionCub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				B6451DF81AA1246E004FC0C3 /* AppDelegate.swift */,
 				B6451DFA1AA1246E004FC0C3 /* ViewController.swift */,
+				B68AC5DB1AA8D794009D7936 /* LionCub.swift */,
+				B68AC5D91AA8C714009D7936 /* Lions.swift */,
 				B6451E181AA12828004FC0C3 /* Tiger.swift */,
 				B6451DFC1AA1246E004FC0C3 /* Main.storyboard */,
 				B6451DFF1AA1246E004FC0C3 /* Images.xcassets */,
@@ -258,6 +264,8 @@
 				B6451DFB1AA1246E004FC0C3 /* ViewController.swift in Sources */,
 				B6451E191AA12828004FC0C3 /* Tiger.swift in Sources */,
 				B6451DF91AA1246E004FC0C3 /* AppDelegate.swift in Sources */,
+				B68AC5DC1AA8D794009D7936 /* LionCub.swift in Sources */,
+				B68AC5DA1AA8C714009D7936 /* Lions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +459,7 @@
 				B6451E141AA1246E004FC0C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6451E151AA1246E004FC0C3 /* Build configuration list for PBXNativeTarget "LionsAndTigersTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +468,7 @@
 				B6451E171AA1246E004FC0C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
